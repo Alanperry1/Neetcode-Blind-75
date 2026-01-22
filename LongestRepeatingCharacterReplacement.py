@@ -1,5 +1,5 @@
 # Time Complexity: O(n) - Sliding window with single pass
-# Space Complexity: O(1) - Hash set stores at most 26 characters (fixed size)
+# Space Complexity: O(1) - Hash map stores at most 26 characters (fixed size)
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         #hash-set of frequency of elements
