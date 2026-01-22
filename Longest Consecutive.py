@@ -1,3 +1,5 @@
+# Time Complexity: O(n log n) - Sorting dominates the time complexity
+# Space Complexity: O(n) - Set stores unique elements
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if len(nums)==0:

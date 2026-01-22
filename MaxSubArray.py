@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through the array with sliding window
+# Space Complexity: O(1) - Only using constant extra space
 def MaxSubArray(nums,k)
     l,r=0,k-1
     initialSum=sum(nums[l:r+1])

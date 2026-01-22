@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.next = next
 
+# Time Complexity: O(n + m) - Traverse both lists once, n and m are lengths
+# Space Complexity: O(1) - Only using constant extra space
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy=ListNode()

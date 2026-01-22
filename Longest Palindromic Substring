@@ -1,3 +1,5 @@
+# Time Complexity: O(n^2) - Expand around center for each position
+# Space Complexity: O(1) - Only storing result string (not counting output)
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         #check for even or odd length palindromes 

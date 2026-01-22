@@ -1,3 +1,5 @@
+# Time Complexity: O(log n) - Binary search on rotated sorted array
+# Space Complexity: O(1) - Only using constant extra space
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left,right=0,len(nums)-1

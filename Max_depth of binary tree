@@ -4,6 +4,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# Time Complexity: O(n) - Visit each node once using BFS
+# Space Complexity: O(n) - Queue stores up to n nodes
 from collections import deque
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:

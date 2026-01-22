@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Sliding window with two pointers
+# Space Complexity: O(min(n, m)) - Set stores unique characters, m is charset size
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         seen=set()

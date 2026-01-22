@@ -1,3 +1,5 @@
+# Time Complexity: O(n log n) - Dominated by sorting
+# Space Complexity: O(n) - Hash set stores n elements
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         hash_set={}

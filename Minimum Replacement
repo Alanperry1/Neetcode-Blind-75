@@ -1,3 +1,5 @@
+# Time Complexity: O(n * m) - n words, each of length m
+# Space Complexity: O(n) - Result list stores n counts
 from typing import List
 def minReplacements(words: List[str]) -> List[int]:
     result=[]
