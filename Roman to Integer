@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through the string
+# Space Complexity: O(1) - Hash map has fixed size (7 entries)
 class Solution:
     def romanToInt(self, s: str) -> int:
         total=0

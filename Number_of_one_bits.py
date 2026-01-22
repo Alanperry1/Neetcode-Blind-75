@@ -1,3 +1,5 @@
+# Time Complexity: O(1) - Fixed 32 iterations
+# Space Complexity: O(1) - Only using constant extra space
 class Solution:
     def hammingWeight(self, n: int) -> int:
         count=0

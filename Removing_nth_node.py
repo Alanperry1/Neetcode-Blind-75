@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.next = next
 
+# Time Complexity: O(n) - Single pass with two pointers
+# Space Complexity: O(1) - Only using constant extra space
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummy=ListNode(0,head)
