@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through the string
+# Space Complexity: O(n) - Stack stores up to n/2 opening brackets
 class Solution:
     def isValid(self, s: str) -> bool:
         stack=[]

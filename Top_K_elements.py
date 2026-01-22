@@ -1,3 +1,5 @@
+# Time Complexity: O(n log n) - O(n) to count frequencies + O(n log n) to sort
+# Space Complexity: O(n) - Hash map stores unique elements
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         seen={}

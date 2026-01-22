@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 
+# Time Complexity: O(m * n) - m nodes in root, n nodes in subRoot, check each node
+# Space Complexity: O(h) - Recursion stack depth h (height of root tree)
 from typing import Optional
 
 class Solution:

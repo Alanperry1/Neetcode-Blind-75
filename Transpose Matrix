@@ -1,3 +1,5 @@
+# Time Complexity: O(m * n) - Iterate through all m rows and n columns
+# Space Complexity: O(m * n) - Result matrix of size n x m
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
         rows=len(matrix)

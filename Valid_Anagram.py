@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through both strings
+# Space Complexity: O(n) - Two hash maps store character counts
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         seen_1={}

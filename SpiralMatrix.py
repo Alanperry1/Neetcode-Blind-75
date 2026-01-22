@@ -1,3 +1,5 @@
+# Time Complexity: O(m * n) - Traverse all m*n elements in spiral order
+# Space Complexity: O(1) - Not counting output array, only constant extra space
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         left,right=0,len(matrix[0])

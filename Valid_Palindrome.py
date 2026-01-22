@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through the string (filtering and comparing)
+# Space Complexity: O(n) - New string stores alphanumeric characters
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         new=''
